@@ -11,7 +11,7 @@ Day 03 | Python
 Day 04 | C++
 Day 05 | Go
 Day 06 | C
-Day 07 | Elixir
+Day 07 | Python
 Day 08 | Fortran
 Day 09 | TBD
 Day 10 | TBD
