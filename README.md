@@ -13,7 +13,7 @@ Day 05 | Go
 Day 06 | C
 Day 07 | Python
 Day 08 | C
-Day 09 | TBD
+Day 09 | Fortran
 Day 10 | TBD
 Day 11 | TBD
 Day 12 | TBD
