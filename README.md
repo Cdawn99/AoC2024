@@ -16,7 +16,7 @@ Day 08 | C
 Day 09 | Fortran
 Day 10 | C
 Day 11 | Python
-Day 12 | TBD
+Day 12 | C
 Day 13 | TBD
 Day 14 | TBD
 Day 15 | TBD
