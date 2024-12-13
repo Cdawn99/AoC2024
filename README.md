@@ -13,11 +13,11 @@ Day 05 | Go
 Day 06 | C
 Day 07 | Python
 Day 08 | C
-Day 09 | Fortran
+Day 09 | Fortran && Python
 Day 10 | C
 Day 11 | Python
 Day 12 | C
-Day 13 | TBD
+Day 13 | Python
 Day 14 | TBD
 Day 15 | TBD
 Day 16 | TBD

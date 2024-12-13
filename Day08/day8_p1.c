@@ -1,24 +1,7 @@
+#include "day8.h"
+
 #define DAWN_IMPLEMENTATION
 #include "../dawn_utils.h"
-
-#include <string.h>
-
-typedef struct {
-    size_t length;
-    size_t capacity;
-    char **items;
-} Map;
-
-Map split_content_to_map(DawnStringBuilder content) {
-    Map map = {0};
-    char delim[] = "\n";
-    char *token = strtok(content.items, delim);
-    while (token) {
-        DAWN_DA_APPEND(&map, token);
-        token = strtok(NULL, delim);
-    }
-    return map;
-}
 
 int main(int argc, char **argv) {
     char *program = dawn_shift_args(&argc, &argv);
@@ -29,14 +12,21 @@ int main(int argc, char **argv) {
     char *fp = dawn_shift_args(&argc, &argv);
 
     DawnStringBuilder map_content = {0};
-    if (!dawn_read_entire_file(fp, &map_content)) {
-        return 1;
-    }
+    if (!dawn_read_entire_file(fp, &map_content)) return 1;
     DAWN_SB_APPEND_BUF(&map_content, "", 1);
 
-    Map map = split_content_to_map(map_content);
+    Map map = map_init(map_content);
+    Frequencies freqs = frequencies_init(map);
 
-    DAWN_DA_FREE(map);
+    for (size_t i = 0; i < freqs.length; i++) {
+        mark_antinodes_part_1(map, freqs.items[i]);
+    }
+
+    size_t antinode_count = map_count_antinodes(map);
+    printf("Number of unique antinodes: %zu\n", antinode_count);
+
+    frequencies_free(freqs);
+    map_free(map);
     DAWN_SB_FREE(map_content);
 
     return 0;
