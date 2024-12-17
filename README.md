@@ -20,8 +20,8 @@ Day 12 | C
 Day 13 | Python
 Day 14 | C
 Day 15 | C
-Day 16 | TBD
-Day 17 | TBD
+Day 16 | Python
+Day 17 | Python
 Day 18 | TBD
 Day 19 | TBD
 Day 20 | TBD

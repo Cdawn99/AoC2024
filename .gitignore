@@ -1,3 +1,4 @@
 build/
 *.txt
 *.mod
+*/__pycache__
