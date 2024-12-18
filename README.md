@@ -22,7 +22,7 @@ Day 14 | C
 Day 15 | C
 Day 16 | Python
 Day 17 | Python
-Day 18 | TBD
+Day 18 | Python
 Day 19 | TBD
 Day 20 | TBD
 Day 21 | TBD
