@@ -26,7 +26,7 @@ Day 18 | Python
 Day 19 | Python
 Day 20 | Python
 Day 21 | Pen & Paper
-Day 22 | TBD
+Day 22 | Python
 Day 23 | TBD
 Day 24 | TBD
 Day 25 | TBD
