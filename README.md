@@ -28,6 +28,6 @@ Day 20 | Python
 Day 21 | Pen & Paper
 Day 22 | Python
 Day 23 | Python
-Day 24 | TBD
+Day 24 | Python && Pen & Paper
 Day 25 | TBD
 ```
